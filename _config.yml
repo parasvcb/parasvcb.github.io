@@ -22,13 +22,12 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Compuational Biologist"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "Structural proteomics and trancriptomics"
+  location         : "India"
+  employer         : "(ISCBGLab - IISER Mohali)"
+  uri              : "https://shashibp-lab.github.io" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
