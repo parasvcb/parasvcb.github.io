@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "paras.jpg"
+  avatar           : "paras.png"
   name             : "Compuational Biologist"
   pronouns         : # example: "she/her"  
   bio              : "Structural proteomics and trancriptomics"
