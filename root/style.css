@@ -1288,3 +1288,11 @@ html {
 
 /* Enhanced shadow for better depth */
 --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+@media (max-width: 768px) {
+  .card__body img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+}

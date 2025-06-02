@@ -1,1 +1,1 @@
-# parasvcb.github.io
+This web platform hosts CV of Paras Verma. 
