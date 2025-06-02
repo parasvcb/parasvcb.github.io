@@ -956,6 +956,12 @@ html {
   margin-bottom: 0;
 }
 
+#skills.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem; /* ensures spacing before next section */
+}
+
 .skills-list {
   display: flex;
   flex-wrap: wrap;
@@ -1106,10 +1112,16 @@ html {
     gap: var(--space-12);
   }
   
-  .section {
-    padding: var(--space-24) 0;
-    scroll-margin-top: 100px;
-  }
+.section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+  scroll-margin-top: 100px;
+}
+
+.section:nth-child(even) {
+  background-color: var(--color-secondary);
+}
   
   .section__title {
     font-size: var(--font-size-xl);
@@ -1295,4 +1307,38 @@ html {
     height: auto;
     margin-left: 0;
   }
+}
+.research-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap; /* Prevent image from wrapping under text */
+  gap: var(--space-24);
+}
+
+.zoomable-image:hover {
+  transform: scale(1.05);
+}
+
+.research-text {
+  flex: 1 1 70%;
+}
+
+.research-image {
+  flex: 0 0 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+    align-self: center; /* 👈 Vertically center the image relative to .research-text */
+
+}
+
+.zoomable-image {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: var(--radius-base);
+  cursor: zoom-in;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease;
 }

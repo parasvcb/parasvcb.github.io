@@ -481,9 +481,9 @@ function initSectionTransitions() {
             const sectionCenter = sectionTop + sectionHeight / 2;
             
             // Add subtle parallax effect for non-essential content
-            if (index % 2 === 0) {
-                section.style.transform = `translateY(${parallax * 0.1}px)`;
-            }
+            // if (index % 2 === 0) {
+            //     section.style.transform = `translateY(${parallax * 0.1}px)`;
+            // }
         });
     }
     
@@ -552,8 +552,9 @@ window.CVWebsite = {
         const section = document.getElementById(sectionId);
         if (section) {
             const headerHeight = document.querySelector('.header').offsetHeight;
-            const targetPosition = section.offsetTop - headerHeight - 10;
-            
+            // const targetPosition = section.offsetTop - headerHeight - 10;
+            const targetPosition = targetSection.offsetTop - headerHeight + 8;
+
             window.scrollTo({
                 top: targetPosition,
                 behavior: 'smooth'
@@ -585,3 +586,32 @@ window.CVWebsite = {
         window.dispatchEvent(event);
     }
 };
+
+document.querySelectorAll('.zoomable-image').forEach(img => {
+  img.addEventListener('click', () => {
+    const overlay = document.createElement('div');
+    overlay.style.position = 'fixed';
+    overlay.style.top = 0;
+    overlay.style.left = 0;
+    overlay.style.width = '100vw';
+    overlay.style.height = '100vh';
+    overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+    overlay.style.display = 'flex';
+    overlay.style.alignItems = 'center';
+    overlay.style.justifyContent = 'center';
+    overlay.style.zIndex = 9999;
+
+    const fullImg = document.createElement('img');
+    fullImg.src = img.src;
+    fullImg.style.maxWidth = '90%';
+    fullImg.style.maxHeight = '90%';
+    fullImg.style.borderRadius = '12px';
+    fullImg.style.cursor = 'zoom-out';
+    fullImg.style.boxShadow = '0 0 20px rgba(0,0,0,0.5)';
+
+    overlay.appendChild(fullImg);
+    document.body.appendChild(overlay);
+
+    overlay.addEventListener('click', () => overlay.remove());
+  });
+});
