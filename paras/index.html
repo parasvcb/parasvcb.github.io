@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <!-- For GitHub Pages deployment, create a .nojekyll file in the repository root -->
 </head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CVSK5MJMP2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CVSK5MJMP2');
+</script>
 <body>
     <header class="header" id="header">
         <div class="container">
@@ -96,7 +104,7 @@
                             <div class="research-text">
                             <h3 class="project__title">Exon nomenclature and classification of transcripts (ENACT) framework and database development</h3>
                             <div class="project__meta">
-                                <span class="project__year">2019</span>
+                                <span class="project__year">2019 - 2023</span>
                                 <span class="project__advisor">Advisor: Dr. Shashi B. Pandit, Associate Professor (Biology), IISER-M</span>
                             </div>
                             <div class="project__skills">
@@ -131,36 +139,81 @@
                     </div>
 
                     <div class="card research-project">
-                        <div class="card__body">
+                        <div class="card__body research-content">
+                            <div class="research-text">
                             <h3 class="project__title">Understanding the sequence optimization of spider silk nanocrystals by comparative evaluation of native with globular protein-inspired geometries</h3>
                             <div class="project__meta">
                                 <span class="project__year">2021</span>
-                                <span class="project__advisor">Advisors: Dr. Shashi B. Pandit & Dr. Kamal P Singh, Professor Physics, IISER-M</span>
+                                <span class="project__advisor">Advisor: Dr. Shashi B. Pandit & Dr. Kamal P. Singh, IISER-M</span>
                             </div>
                             <div class="project__skills">
                                 <span class="skill-tag">HPC</span>
                                 <span class="skill-tag">Steered MD</span>
                                 <span class="skill-tag">NAMD</span>
-                                <span class="skill-tag">VMD</span>
+                                <span class="skill-tag">VMD and Tcl Scripting</span>
                                 <span class="skill-tag">MDTraj</span>
                                 <span class="skill-tag">BioPython</span>
-                                <span class="skill-tag">Interfacial packing</span>
+                                <span class="skill-tag">Interfacial packing analysis</span>
+                                <span class="skill-tag">Dynamic tracking of interaction motif</span>
                             </div>
                             <p class="project__description">
-                                Spider silk is a remarkable material known for its exceptional strength and toughness, mainly due to its β-sheet nanocrystals interspersed within intrinsically disordered regions which are basis of its strength and flexibility. Our computational study aimed to optimize the sequence of these nanocrystals to enhance their physical resilience.
-                            </p>
+                                Spider silk is a remarkable material known for its exceptional strength and toughness, mainly due to its β-sheet nanocrystals interspersed within intrinsically disordered regions which are basis of its strength and flexibility. Our computational study aimed to optimize the sequence of these nanocrystals to enhance their physical resilience.                            </p>
                             <div class="project__achievements">
                                 <h4>Key Achievements:</h4>
                                 <ul>
                                     <li>We compared naturally occurring silk nanocrystals with in-silico models inspired by globular proteins that favor similar structures.</li>
                                     <li>Using the Steered Molecular Dynamics (SMD) protocol, we subjected these models to fracture simulations with constant velocity pulls to understand the molecular basis of their strength.</li>
-                                    <li>Our results demonstrated that natural silk exhibits a geometrical sensitivity in interstrand hydrogen bonding, which maintains cooperativity. This cooperativity is lost in the continuum of in silico models, indicating the superiority of the natural sequence in terms of packing and cooperativity.</li>
+                                    <li>Our results demonstrated that natural silk exhibits a geometrical sensitivity in interstrand hydrogen bonding, which maintains cooperativity. This cooperativity is lost in the continuum of in silico models, indicating the superiority of the natural sequence in terms of packing and cooperativity. We consider them as important tertary interaction motif.</li>
                                     <li>To ensure the robustness of our findings, simulations were conducted at two different pulling speeds, and the results remained consistent, accounting for noise propagation.</li>
                                 </ul>
+                                <p class="project__description">
+                                I also contributed to rationalizing the construction of generic models involving intrinsically disordered regions (IDR) and nanocrystalline regimes. This was to simulate other experimental observations from our collaborators, which, while not part of the manuscript, were crucial for the broader application of our findings.                     </p>
+                            </div>
+                            </div>
+                            <div class="research-image">
+                            <video width="125%" height="120%" controls>
+                            <source src="./asset/test.mp4" type="video/mp4">
+                             Your browser does not support the video tag.
+                            </video>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="card research-project">
+                        <div class="card__body research-content">
+                            <div class="research-text">
+                            <h3 class="project__title">Understanding the Molecular Basis of Compromise in the Pore-Forming Activity of Vibrio cholerae Cytolysin (VCC) upon Mutation of Residue Y321 to Alanine</h3>
+                            <div class="project__meta">
+                                <span class="project__year">2020</span>
+                                <span class="project__advisor">Advisor: Dr. Shashi B. Pandit & Dr. Kausik Chattopadhyay, IISER-M</span>
+                            </div>
+                            <div class="project__skills">
+                                <span class="skill-tag">HPC</span>
+                                <span class="skill-tag">Molecular Dynamics</span>
+                                <span class="skill-tag">PCA (Bio3D)</span>
+                                <span class="skill-tag">VMD and Tcl Scripting</span>
+                                <span class="skill-tag">MDTraj</span>
+                                <span class="skill-tag">Network centrality</span>
+                                <span class="skill-tag">Correlation network analysis</span>
+                                <span class="skill-tag">Community partitioning</span>
+                            </div>
+                            <p class="project__description">
+                                Vibrio cholerae cytolysin (VCC) is a potent, membrane-damaging secretory toxin that assembles into a heptameric pore to cause severe diarrheal diseases. This transformation requires significant conformational changes from its monomeric form. Our study investigates the impact of a specific mutation, tyrosine (Y) to alanine (A) at residue 321 (Y321A), on the toxin's functionality.</p>
+                            <div class="project__achievements">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                    <li>Mutation Y321A significantly hampers VCC's assembly and pore-forming activity.</li>
+                                    <li>We utilized principal component analysis (PCA) to model and compare the global conformational changes in VCC's wild-type and Y321A mutant forms. Correlation network analysis (CNA) further elucidated the structural and functional disruptions caused by the mutation.</li>
+                                    <li>The Y321A mutation disrupts a crucial hydrophobic pocket, leading to failed compensation in interdomain contacts among the β-Trefoil, β-Prism, and conserved cytolysin domains. This disruption is critical to the observed functional arrest and impeded domain motion necessary for transformation to active form.</li>
+                                </ul>
+                                <p class="project__description">
+                                To add computational rigor, I performed difference contact network analysis to elucidate further the structural changes (not part of manuscript). I simulated the partially recovering Y321F variant, which showed recovery in network structure. Moreover, additional hub residues implicated in the structural integrity are being experimentally validated, showing promising preliminary results.                     </p>
+                            </div>
+                            </div>
+                            <div class="research-image">
+                            <img src="./asset/vcc.jpg" alt="Project Image" class="zoomable-image">
+                            </div>
+                        </div>
+                    </div>
             </div>
         </section>
 
