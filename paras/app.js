@@ -88,6 +88,11 @@
     activatePanel(targetId || 'program', { scroll: false, updateHash: false });
   });
 
+  window.addEventListener('popstate', () => {
+    const targetId = window.location.hash.slice(1);
+    activatePanel(targetId || 'program', { scroll: false, updateHash: false });
+  });
+
   window.addEventListener('scroll', updateBackToTop, { passive: true });
 
   if (backToTop) {
