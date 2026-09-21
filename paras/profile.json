@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "Paras Verma, Ph.D. | Computational Biology",
+    "description": "Research profile of Paras Verma, Ph.D. - computational biology for population-aware variant interpretation, post-transcriptional proteoforms, protein-ligand interactions, cell-surface proteins, and disease mechanisms including ALS.",
+    "author": "Paras Verma",
+    "og_title": "Paras Verma, Ph.D. | Computational Biology",
+    "og_description": "Population-aware variant interpretation, proteoform biology, protein-ligand interactions, cell-surface proteins, and public-data disease mechanism analysis."
+  },
+  "header": {
+    "brand_role": "Computational biologist",
+    "skip_link_1": "Skip to content"
+  },
+  "profile": {
+    "eyebrow_1": "Research profile",
+    "h1_1": "Paras Verma, Ph.D.",
+    "a_1": "parasvcb@gmail.com",
+    "a_2": "ORCID",
+    "a_3": "GitHub",
+    "a_4": "LinkedIn",
+    "p_1": "Ph.D., IISER Mohali, <a href=\"https://web.iisermohali.ac.in:8080/faculty/shashi-b-pandit\" target=\"_blank\" rel=\"noopener noreferrer\">Shashi B. Pandit group</a>",
+    "tab_link_active_1": "Research focus",
+    "tab_link_1": "Projects",
+    "tab_link_2": "Publications",
+    "tab_link_3": "Methods",
+    "tab_link_4": "Training",
+    "tab_link_5": "Life in motion"
+  },
+  "program": {
+    "visually_hidden_1": "Research focus",
+    "dt_1": "Questions",
+    "dt_2": "Approach"
+  },
+  "projects": {
+    "visually_hidden_1": "Projects",
+    "a_1": "ENACTdb",
+    "a_2": "Framework paper",
+    "a_3": "Database paper",
+    "a_4": "Publication",
+    "a_5": "Publication"
+  },
+  "publications": {
+    "visually_hidden_1": "Publications"
+  },
+  "methods": {
+    "visually_hidden_1": "Methods"
+  },
+  "training": {
+    "visually_hidden_1": "Training"
+  },
+  "life": {
+    "visually_hidden_1": "Life in motion"
+  },
+  "links": {
+    "src_1": "https://www.googletagmanager.com/gtag/js?id=G-CVSK5MJMP2",
+    "href_2": "style.css?v=20260623-tabs",
+    "src_3": "asset/paras.png",
+    "alt_4": "Portrait of Paras Verma",
+    "href_5": "mailto:parasvcb@gmail.com",
+    "href_6": "https://orcid.org/0000-0002-1649-4733",
+    "href_7": "https://github.com/parasvcb",
+    "href_8": "https://in.linkedin.com/in/paras-verma-ph-d-b563052a5",
+    "href_9": "https://www.iscbglab.in/enactdb/",
+    "href_10": "https://pubmed.ncbi.nlm.nih.gov/40335152/",
+    "href_11": "https://pubmed.ncbi.nlm.nih.gov/39569321/",
+    "src_12": "asset/text.jpg",
+    "alt_13": "Block notation of the ENACT framework model",
+    "href_14": "https://pubmed.ncbi.nlm.nih.gov/33089544/",
+    "src_15": "asset/vcc1.jpg",
+    "alt_16": "RMSF, principal component, and contact-network analysis for Vibrio cholerae cytolysin",
+    "href_17": "https://pubmed.ncbi.nlm.nih.gov/34151552/",
+    "src_18": "asset/test.mp4",
+    "src_19": "app.js?v=20260623-tabs"
+  }
+}
