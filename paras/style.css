@@ -21,6 +21,25 @@
 }
 
 /* Shared navigation and the two research essays. */
+.contact-invitation {
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: var(--radius-sm);
+}
+
+.contact-invitation p {
+  margin: 0 0 0.5rem;
+  max-width: 90ch;
+}
+
+.contact-invitation a {
+  font-weight: 650;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 .site-nav {
   display: flex;
   justify-content: flex-end;

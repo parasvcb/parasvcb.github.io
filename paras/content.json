@@ -364,5 +364,9 @@
         }
       ]
     }
+  },
+  "contact_invitation": {
+    "text": "If you share these interests or would like to discuss the work, I would be very happy to connect, share more details and learn from you. I believe science grows through a diversity of perspectives and experiences.",
+    "link_label": "Get in touch"
   }
 }
