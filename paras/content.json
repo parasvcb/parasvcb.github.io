@@ -66,40 +66,39 @@
     }
   ],
   "profile": {
-    "profile_title_1": "How changes in RNA and DNA affect proteins and their structure function relationships",
-    "profile_brief_1": "I study how genetic background and post-transcriptional processing change proteins that cells make. I bring together sequence analysis, structural models and public datasets to ask which changes matter for protein function.",
+    "profile_title_1": "Protein structure, function and diversification",
+    "profile_brief_1": "I study the effects of genetic background and RNA processing on the proteins that cells make. My work combines sequence analysis, structural models and biological data to interpret changes in protein function.",
     "profile_role_1": "Current: Research Associate (Postdoc), Plaksha University",
     "p_2": "Department of Biological Systems (BioSystems) Engineering",
     "p_3": "<a href=\"https://plaksha.edu.in/faculty-details/dr-monika-sharma\" target=\"_blank\" rel=\"noopener noreferrer\">Monika Sharma group</a>",
     "profile_address_1": "Plaksha University, Alpha, Sector 101, IT City Rd, Sahibzada Ajit Singh Nagar, Punjab 140306"
   },
   "program": {
-    "standfirst_1": "When a transcript changes, what changes in protein",
-    "p_1": "A difference in RNA does not always lead to a different protein. Even when it does, the effect on protein function may be unclear. I work on ways to connect these observations: from a change in a transcript to the protein features it could alter, and then to questions that can be tested.",
-    "p_2": "My current work follows three related questions. How does population background inform the interpretation of genetic variants? How do different forms of a protein change its features at the cell surface? And what can existing datasets tell us about changes in cell state, DNA damge repair pathways and immune responses? I am examining these in two disease contexts: breast cancer and ALS, yhe latter through collaboration.",
-    "dd_1": "I am working to understand if and how ancestry-linked variants affect disease-relevant protein features, examining how post-transcriptional processing shape proteoforms using cell-surface proteins as a model system, and exploring how related molecular patterns may be reflected in inflammatory state shifts in ALS.",
-    "dd_2": "I compare genetic variants, exon use, and transcript sequences, then map the differences onto protein features and structural models. Cell-surface proteins provide a setting for asking how these differences might affect interactions with ligands or membranes. Alongside this work, I reanalyse public transcriptomic datasets to study cell-state changes in TNBC and ALS."
+    "standfirst_1": "Protein variation in its biological context",
+    "p_1": "A difference in RNA does not always produce a different protein, and a sequence change does not by itself establish a functional effect. I connect transcript differences with protein features and structural models to distinguish these possibilities.",
+    "p_2": "My current work includes population-aware interpretation of BRCA variants and the diversification of cell-surface proteins. I am developing this work toward DNA-damage repair and cellular state in breast cancer. I also contribute to collaborative analyses in amyotrophic lateral sclerosis (ALS).",
+    "dd_2": "I compare genetic variants, exon use and transcript sequences and map their differences onto protein features. Molecular dynamics and experimental collaboration help interpret the relevant structural states. I am also reading single-cell and spatial studies in preparation for planned analyses."
   },
   "projects": {
     "p_1": "Selected research projects (from Ph.D. only, for ongoing work, contact me) where I contributed to transcript-to-protein interpretation, molecular dynamics, and genome annotation.",
     "tagline_1": "ENACT and ENACTdb · 2019–2025",
     "h3_1": "Exon nomenclature and classification of transcripts",
-    "p_2": "<strong>Question.</strong> When alternative transcription or splicing changes exon usage, how can we distinguish transcript-level rearrangement from protein-level consequence?",
+    "p_2": "<strong>Focus.</strong> Distinguishing transcript differences by their predicted protein consequences.",
     "p_3": "<strong>Contribution.</strong> I developed the ENACT framework to classify exon attributes from a gene-centered view and map transcript changes to coding regions, amino-acid sequence changes, splice-site variation, and protein features.",
-    "p_4": "<strong>Scientific use.</strong> ENACTdb helps researchers ask whether an RNA-level change is likely to alter the protein product, rather than treating all transcript differences as equivalent.",
+    "p_4": "<strong>Scientific use.</strong> ENACTdb associates exon variation with coding sequence and protein features, allowing transcript differences to be evaluated individually.",
     "li_1": "Annotated protein-coding genes across <i>C. elegans</i>, <i>D. melanogaster</i>, <i>D. rerio</i>, <i>M. musculus</i>, and <i>H. sapiens</i>.",
     "li_2": "Linked exon-level classes with coding status, amino-acid changes, splice-site shifts, domains, disordered regions, motifs, and related feature tracks.",
     "li_3": "Published the framework in <i>Genome Research</i> and the database in <i>Bioinformatics Advances</i>.",
     "figcaption_1": "ENACT formalizes exon identity, coding consequence, isoform prevalence, and splice-site variation.",
     "tagline_2": "Molecular dynamics · 2020",
     "h3_2": "Mutation-linked dynamics in <i>Vibrio cholerae</i> cytolysin",
-    "p_5": "<strong>Question.</strong> How can a local hinge-region mutation reduce pore-forming activity in a multidomain toxin?",
+    "p_5": "<strong>Focus.</strong> The effects of a hinge-region mutation on pore formation in a multidomain toxin.",
     "p_6": "<strong>Contribution.</strong> We used molecular dynamics and structural network analysis to compare wild-type VCC with the Y321A mutant and track how the mutation changed residue motions and domain contacts.",
     "p_7": "<strong>Scientific use.</strong> The analysis linked a local hydrophobic-pocket perturbation to domain communication needed for pore formation.",
     "figcaption_2": "Residue-level fluctuation, principal motion, and network analyses were used to interpret mutation effects.",
     "tagline_3": "Steered molecular dynamics · 2021",
     "h3_3": "Sequence design and mechanical failure in silk beta-sheet nanocrystals",
-    "p_8": "<strong>Question.</strong> Which sequence and packing features help beta-sheet nanocrystals resist fracture under force?",
+    "p_8": "<strong>Focus.</strong> Sequence and packing features that influence fracture under force.",
     "p_9": "<strong>Contribution.</strong> We compared natural silk nanocrystals with in silico beta-sheet models inspired by globular proteins and followed fracture using constant-velocity pulling simulations.",
     "p_10": "<strong>Scientific use.</strong> The work relates sequence and packing choices to mechanical failure, which can guide the design of silk-like biomaterials.",
     "figcaption_3": "Steered MD was used to compare strand-pull and fracture behavior across designed nanocrystals.",
@@ -125,7 +124,7 @@
   "training": {
     "span_1": "2025–current",
     "h3_1": "Postdoctoral research",
-    "p_1": "Research Associate at Plaksha University, Mohali, India. Current work focuses on ethnicity-stratified variant interpretation, membrane and proteoform effects on cell-surface proteins, and ALS-focused analysis of public datasets.",
+    "p_1": "Research Associate at Plaksha University, Mohali, India. Current work includes population-aware variant interpretation, proteoform effects on cell-surface proteins and collaborative analysis of public ALS datasets.",
     "span_2": "2017–2024",
     "h3_2": "Ph.D. in Computational Biology",
     "p_2": "Department of Biological Sciences, IISER Mohali. Dissertation work connected alternative splicing and proteome diversification with molecular dynamics, protein structural networks, genome assembly, and annotation.",
@@ -146,5 +145,224 @@
     "p_3": "Enjoy developing healthy recipes and practical workout ideas that fit into daily life.",
     "p_4": "&copy; 2026 Paras Verma, Ph.D.",
     "p_5": "Digital research profile."
+  },
+  "essays": {
+    "research": {
+      "filename": "research.html",
+      "title": "Research approach",
+      "description": "My core in protein structure and RNA processing, and its extensions into genomics, human variation and DNA-damage repair.",
+      "intro": "The work that has shaped my core capabilities and the biological contexts in which I am developing them.",
+      "groups": [
+        {
+          "id": "philosophy",
+          "title": "My approach to science",
+          "sections": [
+            {
+              "id": "philosophy-1",
+              "title": "",
+              "paragraphs_html": [
+                "<span class=\"literature\" title=\"From the literature\">Biological systems have evolved diverse functional outcomes through connected layers of regulation, yet these outcomes can depend on surprisingly local molecular changes. A single phosphorylation site, for example, can alter protein activity or partner recognition. During the DNA-damage response, DYRK2-mediated phosphorylation of p53 at Ser46 promotes p53AIP1 expression and apoptosis. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/17349958/\" target=\"_blank\" rel=\"noopener noreferrer\">17349958</a>)</span>"
+              ]
+            },
+            {
+              "id": "philosophy-2",
+              "title": "",
+              "paragraphs_html": [
+                "This complexity has also shaped how I have approached biology. I have had the opportunity to study several interacting biological modules individually and in depth. I see cellular states as coordinated across layers of gene expression and regulation, but believe that studying individual modules at mechanistic depth remains necessary. My research so far has involved decomposing complex systems into simpler modules, understanding them well, and reconnecting them into larger systems."
+              ]
+            },
+            {
+              "id": "philosophy-3",
+              "title": "",
+              "paragraphs_html": [
+                "I have therefore explored different aspects of biological systems through a computational-first approach in close collaboration with experimental groups. This has shaped the way I prefer to work. Experimental constraints help guide computational interpretation and establish its biological relevance."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "core",
+          "title": "Core",
+          "sections": [
+            {
+              "id": "frame",
+              "title": "",
+              "paragraphs_html": [
+                "I believe our strongest work often comes from developing a defined core capability and extending it when another perspective is needed to understand a biological system more completely.",
+                "My core concerns proteins and the ways their function can be diversified through sequence, packing, interaction networks and structural organization, as well as RNA processing that changes the protein products a gene can produce. This core developed during my Ph.D. and continues to evolve as the RNA and protein aspects of my work converge.",
+                "I use extensions to describe the broader biological contexts in which I apply and develop these capabilities. These include genetic variation, DNA-damage repair, cell state and communication between cells."
+              ]
+            },
+            {
+              "id": "protein-intro",
+              "title": "Protein systems",
+              "paragraphs_html": [
+                "The protein systems I have studied connect residue composition, packing and conformational organization with different aspects of function."
+              ]
+            },
+            {
+              "id": "vcc",
+              "title": "",
+              "paragraphs_html": [
+                "In Mondal et al., we studied the contribution of Y321 in the hinge region to the structural rearrangements required for oligomerization and pore formation. Mutation of this residue impaired oligomerization and blocked subsequent pore formation. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/33089544/\" target=\"_blank\" rel=\"noopener noreferrer\">33089544</a>) In my contribution, molecular dynamics and community network analysis helped examine the effects of a local perturbation on dynamically connected regions. What fascinated me was the position of a single residue within a larger structural network, with consequences extending through the assembly process.",
+                "<span class=\"literature\" title=\"From the literature\">Later structural and functional work from collaborators established that cradle-loop residues, particularly Y194, contribute to pre-stem membrane insertion and pore formation. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/41202807/\" target=\"_blank\" rel=\"noopener noreferrer\">41202807</a>)</span> This supports the importance of interactions surrounding the pre-stem region. The later study examined different residues from our Y321A study."
+              ]
+            },
+            {
+              "id": "silk",
+              "title": "",
+              "paragraphs_html": [
+                "In Verma et al., we studied the molecular constraints relevant to modifying the strength of spider silk. We compared model β-sheet nanocrystals with different amino-acid repeats and examined their response to mechanical pulling. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/34151552/\" target=\"_blank\" rel=\"noopener noreferrer\">34151552</a>) That work made me truly appreciate the resolution molecular dynamics can provide. The organization of hydrogen bonds during pulling was particularly important. Stronger side-chain interactions did not necessarily improve backbone hydrogen-bond cooperativity or mechanical strength.",
+                "<span class=\"literature\" title=\"From the literature\">Subsequent experimental work by other groups engineered the poly-alanine regions of recombinant spider-silk proteins and measured the mechanics of spun fibres. Some substitutions improved fibre strength, while other constructs had problems with solubility, spinning or extensibility. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/36505976/\" target=\"_blank\" rel=\"noopener noreferrer\">36505976</a>)</span> These fibre-level experiments differ from our simulated nanocrystals, but the comparison reinforces an important lesson for me. Sequence design must account for several interacting constraints, including the organization of backbone hydrogen bonds under load.",
+                "I would like to use simulations to guide selective substitutions while monitoring backbone hydrogen bonding, followed by experimental assessment of spinnability and fibre mechanics."
+              ]
+            },
+            {
+              "id": "protein-learning",
+              "title": "",
+              "paragraphs_html": [
+                "This also made me increasingly interested in multidomain organization and intrinsically disordered regions (IDRs). <span class=\"literature\" title=\"From the literature\">Domains are useful units of structure, evolution and function, but a multidomain protein’s behaviour can depend on the geometry and communication between those units. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/15093836/\" target=\"_blank\" rel=\"noopener noreferrer\">15093836</a>; <a href=\"https://pubmed.ncbi.nlm.nih.gov/32066080/\" target=\"_blank\" rel=\"noopener noreferrer\">32066080</a>) In silk, β-sheet nanocrystals are embedded in an amorphous matrix that contributes to extensibility. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/36505976/\" target=\"_blank\" rel=\"noopener noreferrer\">36505976</a>)</span> These different forms of organization strengthened my interest in the influence of a structural unit’s surroundings on its function.",
+                "I find a combined computational and experimental approach particularly useful here. Experiments constrain the biologically relevant states, while computation can examine their organization and interactions. <span class=\"literature\" title=\"From the literature\">This combination is also important in studies of protein allostery. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/40043838/\" target=\"_blank\" rel=\"noopener noreferrer\">40043838</a>)</span>"
+              ]
+            },
+            {
+              "id": "transcripts",
+              "title": "Transcript diversity",
+              "paragraphs_html": [
+                "In parallel, I was developing an understanding of alternative splicing and the diversity of protein products from coding genes. <span class=\"literature\" title=\"From the literature\">Alternative splicing can change the regions included in a protein and affect its structure, interactions and function. The relationship between transcript and functional protein diversity is not one-to-one, and isoform-specific protein detection remains challenging. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/39778413/\" target=\"_blank\" rel=\"noopener noreferrer\">39778413</a>)</span>",
+                "We tried to improve the representation of the problem itself. I developed a systematic framework for annotating exons in a gene-wide manner. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/40335152/\" target=\"_blank\" rel=\"noopener noreferrer\">40335152</a>) Pairwise transcript comparisons remain useful, but a gene-wide representation makes recurring variation and its coding consequences easier to examine. I am also interested in the relationship between evolutionary constraint and a gene’s capacity to diversify its products.",
+                "After studying transcript-diversification patterns across five species and refining the representation over several years, ENACT provided a consistent way to annotate exon attributes within genes and transcripts and track their relationship to protein-coding sequence. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/40335152/\" target=\"_blank\" rel=\"noopener noreferrer\">40335152</a>; <a href=\"https://pubmed.ncbi.nlm.nih.gov/39569321/\" target=\"_blank\" rel=\"noopener noreferrer\">39569321</a>) The annotation retains information about exonic position, splice-site variation and coding consequence. Transcript diversification involves alternative splicing and alternative transcription, while changes in coding boundaries can also alter the resulting protein sequence. ENACT preserves these distinctions in its representation."
+              ]
+            },
+            {
+              "id": "transcript-next",
+              "title": "",
+              "paragraphs_html": [
+                "So far, much of this work has focused on annotation models and the patterns that become visible once exon variation is tractable across genes and species. This provides a basis for examining changes in protein products through splicing within an organism and evolution across organisms. I want to combine this representation with experimental constraints to characterize protein-family diversity and tissue-specific processing patterns.",
+                "I am increasingly interested in discordance between RNA and protein measurements. <span class=\"literature\" title=\"From the literature\">These measurements provide related but non-redundant views of gene expression, and single-cell protein measurements have distinct opportunities and limitations. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/32709985/\" target=\"_blank\" rel=\"noopener noreferrer\">32709985</a>; <a href=\"https://pubmed.ncbi.nlm.nih.gov/33653632/\" target=\"_blank\" rel=\"noopener noreferrer\">33653632</a>)</span> For me, the challenge is to distinguish technical disagreement from regulation involving translation, protein turnover, proteoform composition or molecular states that gene-level measurements cannot resolve."
+              ]
+            },
+            {
+              "id": "common-gap",
+              "title": "",
+              "paragraphs_html": [
+                "These projects are different on the surface, and I remain grateful to the mentors, friends and collaborators through whom I learned each system. They have also exposed a recurring difficulty in biological representation. What we conveniently measure is not always the unit through which function is carried out. A residue acts in a network, a domain in a multidomain context, and a transcript does not automatically imply a functional protein. A gene can produce molecular products with different behaviour. Much of my future work concerns this mismatch. I want to improve the representation, identify relevant constraints and combine computation with experiments to understand the contribution of molecular variation to biological behaviour."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "extensions",
+          "title": "Extensions",
+          "sections": [
+            {
+              "id": "extensions-frame",
+              "title": "",
+              "paragraphs_html": [
+                "These capabilities have developed further through collaborative work in genomics and through my postdoctoral work on human variation. DNA-damage repair and its cellular consequences are becoming a particular interest."
+              ]
+            },
+            {
+              "id": "genome",
+              "title": "",
+              "paragraphs_html": [
+                "Alongside this, I also worked in the genomic space, which, in a simple sense, completed the genome, RNA and protein circle of my training. In a collaborative project on Nasonia oneida, I contributed to the annotation of its first reference genome and the resulting comparative-genomic resource. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/40593889/\" target=\"_blank\" rel=\"noopener noreferrer\">40593889</a>)"
+              ]
+            },
+            {
+              "id": "brca",
+              "title": "",
+              "paragraphs_html": [
+                "In my ongoing postdoctoral work, I have extended this toward population-aware human variant interpretation by comparing reported germline BRCA variation across Indian, Chinese and predominantly European-ancestry datasets (work communicated). For understudied variants, this also involved comparing computational pathogenicity predictions. I treat these predictions as prioritisation tools rather than established pathogenicity, and prioritised variants are being taken forward for experimental assessment with collaborators."
+              ]
+            },
+            {
+              "id": "repair",
+              "title": "",
+              "paragraphs_html": [
+                "I am interested in the conformational states of DNA-damage-repair proteins and the effects of variants or regulatory changes on interaction surfaces, partner selection and assembly. I want to examine their influence on repair-pathway choice and cellular state, followed by their possible consequences for communication with immune cells and surrounding tissue. Therapeutic response is a longer-term motivation for this work."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "views": {
+      "filename": "views.html",
+      "title": "Perspectives",
+      "description": "Developing perspectives on cancer, tissue communication, agentic AI and biological representation.",
+      "intro": "My developing perspectives on cancer and computational biology.",
+      "groups": [
+        {
+          "id": "cancer",
+          "title": "Cancer as a multiscale biological system",
+          "sections": [
+            {
+              "id": "cancer-frame",
+              "title": "",
+              "paragraphs_html": [
+                "I find it useful to approach cancer through two interacting perspectives. <span class=\"literature\" title=\"From the literature\">One begins inside malignant cells, with genetic alteration, epigenetic change, altered repair, metabolism and cellular plasticity. The other begins with the tissue ecosystem, including stromal organization, immune surveillance and escape, and communication among malignant and non-malignant cells. These processes can reshape one another. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/35022204/\" target=\"_blank\" rel=\"noopener noreferrer\">35022204</a>; <a href=\"https://pubmed.ncbi.nlm.nih.gov/26241053/\" target=\"_blank\" rel=\"noopener noreferrer\">26241053</a>)</span>"
+              ]
+            },
+            {
+              "id": "immune",
+              "title": "",
+              "paragraphs_html": [
+                "<span class=\"literature\" title=\"From the literature\">Why immune responses become ineffective, suppressive or tumour-supportive cannot be explained reliably by a single mechanism. Immune selection, metabolic conditions and the cellular composition of the tumour microenvironment can contribute in context-dependent ways. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/26241053/\" target=\"_blank\" rel=\"noopener noreferrer\">26241053</a>; <a href=\"https://pubmed.ncbi.nlm.nih.gov/30873592/\" target=\"_blank\" rel=\"noopener noreferrer\">30873592</a>)</span>"
+              ]
+            },
+            {
+              "id": "wounds",
+              "title": "",
+              "paragraphs_html": [
+                "One analogy I find useful is Dvorak’s description of tumours as “wounds that do not heal”. <span class=\"literature\" title=\"From the literature\">Tumours and repairing tissues share features of inflammation, proliferation, migration and tissue remodelling. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/3537791/\" target=\"_blank\" rel=\"noopener noreferrer\">3537791</a>; <a href=\"https://pubmed.ncbi.nlm.nih.gov/29958632/\" target=\"_blank\" rel=\"noopener noreferrer\">29958632</a>)</span> I find the analogy useful for considering why programmes that normally resolve after tissue repair can persist in a tumour. It is not a complete theory of cancer."
+              ]
+            },
+            {
+              "id": "boundary",
+              "title": "",
+              "paragraphs_html": [
+                "<span class=\"literature\" title=\"From the literature\">In heterogeneous tumours, clonal states and interactions with the microenvironment can influence progression and treatment resistance. Single-cell and spatial approaches can help investigate this heterogeneity and its spatial context. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/39271263/\" target=\"_blank\" rel=\"noopener noreferrer\">39271263</a>)</span> I am interested in communication between tumours and surrounding tissue, including signals received and returned by apparently non-malignant cells, stromal populations and immune cells. I am currently reading single-cell and spatial studies and plan to begin analyses in November 2026.",
+                "I would also like to examine evolutionary constraints on the molecular features involved in this communication. <span class=\"literature\" title=\"From the literature\">Sequence conservation and protein structure can inform the interpretation of coding variation. (PMID <a href=\"https://pubmed.ncbi.nlm.nih.gov/20399638/\" target=\"_blank\" rel=\"noopener noreferrer\">20399638</a>)</span> Their relevance to tissue communication will need to be evaluated in the specific biological context."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "agentic-ai",
+          "title": "Agentic AI and biological representation",
+          "sections": [
+            {
+              "id": "ai-practice",
+              "title": "",
+              "paragraphs_html": [
+                "AI tools have already increased the pace of computational work for me. Agentic systems extend this through iterative feedback and tool use, including consultation of documentation that I previously read only briefly. In my experience, generating alternative explanations, recognizing an inadequate biological representation and choosing an uncertainty for experimental investigation still require scientific judgement."
+              ]
+            },
+            {
+              "id": "ai-representation",
+              "title": "",
+              "paragraphs_html": [
+                "In biology, particularly clinical biology, I think there is a limitation upstream of the AI itself. The most informative functional unit is not always clear for a given investigation. RNA, protein abundance, proteoforms and localization each capture part of a cell’s state. In my view, the choice of representation deserves as much attention as the agent’s ability to reason over it."
+              ]
+            },
+            {
+              "id": "ai-opportunity",
+              "title": "",
+              "paragraphs_html": [
+                "I see an opportunity for agentic computational biology in representing functional units more accurately across omics layers and modalities. I expect this could improve hypothesis prioritisation, expose contradictions earlier and make exploratory patterns easier to develop into experimental tests. These are benefits I would like to evaluate in my own work."
+              ]
+            },
+            {
+              "id": "ai-responsibility",
+              "title": "AI use and responsibility",
+              "paragraphs_html": [
+                "I use AI tools to assist with writing, editing and computational work. They help me brainstorm around my ideas, improve expression and work more efficiently. I remain responsible for checking sources, reviewing analyses and code, and ensuring that the final work reflects my understanding. Where relevant, I disclose their use in individual research outputs."
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 }

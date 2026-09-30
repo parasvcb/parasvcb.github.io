@@ -27,7 +27,6 @@
   },
   "program": {
     "visually_hidden_1": "Research focus",
-    "dt_1": "Questions",
     "dt_2": "Approach"
   },
   "projects": {
@@ -52,7 +51,7 @@
   },
   "links": {
     "src_1": "https://www.googletagmanager.com/gtag/js?id=G-CVSK5MJMP2",
-    "href_2": "style.css?v=20260623-tabs",
+    "href_2": "style.css?v=20261001-research",
     "src_3": "asset/paras.png",
     "alt_4": "Portrait of Paras Verma",
     "href_5": "mailto:parasvcb@gmail.com",
@@ -70,5 +69,31 @@
     "href_17": "https://pubmed.ncbi.nlm.nih.gov/34151552/",
     "src_18": "asset/test.mp4",
     "src_19": "app.js?v=20260623-tabs"
+  },
+  "site_nav": [
+    {
+      "href": "index.html",
+      "label": "Research focus"
+    },
+    {
+      "href": "research.html",
+      "label": "Research approach"
+    },
+    {
+      "href": "views.html",
+      "label": "Perspectives"
+    }
+  ],
+  "essay_labels": {
+    "legend": "Black text describes my work and views. Blue text refers to the literature.",
+    "contents": "On this page",
+    "back": "Research focus",
+    "publications": "Publications"
+  },
+  "research_links": {
+    "research_title": "Core and extensions",
+    "research_text": "Protein systems, transcript diversity and the development of my current work.",
+    "views_title": "Cancer and agentic AI",
+    "views_text": "Perspectives on cellular context and biological representation."
   }
 }
