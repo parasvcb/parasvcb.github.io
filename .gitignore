@@ -1,0 +1,27 @@
+# Local authoring sources and raw/intermediate research data.
+*.json
+*.jsonl
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.hdf5
+*.fasta
+*.fa
+*.fastq
+*.fq
+*.bam
+*.sam
+*.vcf
+*.gtf
+*.gff
+*.gff3
+*.avi
+raw/
+raw-data/
+data/
+backups/
+__pycache__/
+*.tmp

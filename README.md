@@ -13,4 +13,18 @@ python ../extra/generate.py --site-dir paras
 python ../extra/generate.py --site-dir paras --check
 ```
 
-Commit the generated HTML with JSON changes. The site does not load JSON at runtime.
+The JSON sources remain local and are ignored by Git. Commit generated HTML,
+styles, scripts and display assets. Raw data and the unused AVI source video are
+also excluded. The site does not load JSON at runtime. Existing Git history is
+unchanged; the files are removed from tracking in the current index only.
+
+If Python is unavailable, use the equivalent Node generator:
+
+```sh
+node ../extra/generate.cjs
+node ../extra/generate.cjs --check
+```
+
+Backups and the complete line-by-line editorial redline are in the sibling
+`../extra/revision-2026-10-03` directory. Keep a separate backup of local JSON
+sources: a fresh clone contains the published pages, not the authoring data.
