@@ -1,325 +1,91 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CVSK5MJMP2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-CVSK5MJMP2');
-  </script>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Paras Verma, Ph.D. | Computational Biology</title>
-  <meta name="description" content="I study how genetic variation and RNA processing shape protein diversity, and how these changes are reflected in protein structure, function, and cellular state. My work combines sequence analysis, structural modelling, and biological data to connect variation across transcriptomic, proteomic, and cellular levels.">
-  <meta name="author" content="Paras Verma">
-  <meta name="theme-color" content="#111827">
-  <meta property="og:title" content="Paras Verma, Ph.D. | Computational Biology">
-  <meta property="og:description" content="I study how genetic variation and RNA processing shape protein diversity, and how these changes are reflected in protein structure, function, and cellular state. My work combines sequence analysis, structural modelling, and biological data to connect variation across transcriptomic, proteomic, and cellular levels.">
-  <meta property="og:type" content="website">
-  <link rel="stylesheet" href="style.css?v=20261001-connect">
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research portfolio | Paras Verma</title>
+<meta name="description" content="Paras Verma’s research portfolio: protein dynamics, ENACT and exon variation, proteogenomics and integrated disease analyses.">
+<meta name="author" content="Paras Verma">
+<meta property="og:title" content="Research portfolio | Paras Verma">
+<meta property="og:description" content="Paras Verma’s research portfolio: protein dynamics, ENACT and exon variation, proteogenomics and integrated disease analyses.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#f9f8f4">
+<link rel="stylesheet" href="compact.css?v=20261106h">
+<script>window.portfolioAnalytics = {measurementId: "G-CVSK5MJMP2", productionHost: "parasvcb.github.io"};</script>
+<script src="analytics.js?v=20261106" defer></script>
+<script src="portfolio.js?v=20261106e" defer></script>
+</head><body class="home-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a class="brand" href="index.html">Paras Verma<span>Ph.D.</span></a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Research</a><a href="cv.html">CV and publications</a><a href="research.html">Background</a>
+      <details class="more-nav"><summary>More</summary><div><a href="views.html">Perspectives</a><a href="archive/2026-11-06/index.html">Previous version</a></div></details>
+    </nav>
+  </div>
+</header>
 
-  <header class="site-header" id="top">
-    <div class="container header-grid">
-      <a class="brand" href="#top" aria-label="Paras Verma home">
-        <span class="brand-name">Paras Verma, Ph.D.</span>
-        <span class="brand-role">Computational biologist</span>
-      </a>
-      <nav class="site-nav" aria-label="Main navigation"><a href="index.html" aria-current="page">Research focus</a><a href="research.html">Research approach and background</a><a href="views.html">Perspectives</a></nav>
-    </div>
-  </header>
+<main id="main">
+ <div class="wrap portfolio-grid">
+  <aside class="profile-card" aria-label="Profile">
+   <img class="avatar" src="asset/paras.png" alt="Portrait of Paras Verma" width="72" height="84">
+   <p class="profile-role">Computational biologist</p><div class="profile-tags"><span>Transcriptomics</span><span>Proteogenomics</span><span>Structural bioinformatics</span><span>Multi-omic ML</span></div><p class="profile-description">I develop methods to examine transcript variation and its protein consequences.</p>
+   <p class="affiliation">Postdoctoral Research Associate, Plaksha University</p><p class="degree">Ph.D., IISER Mohali · June 2024</p>
+   <a class="button primary" href="downloads/ParasVermaCV.pdf" download data-cv>Download full CV <span>PDF ↓</span></a>
+   <div class="profile-links"><a href="mailto:parasvcb@gmail.com" data-contact="profile">Email</a><a href="https://orcid.org/0000-0002-1649-4733">ORCID</a><a href="https://github.com/parasvcb">GitHub</a><a href="https://www.linkedin.com/in/paras-verma-ph-d-b563052a5/">LinkedIn</a></div>
+  </aside>
+  <div class="home-content">
+   <section id="trajectory" class="intro-section"><h1>Research trajectory</h1><p>My early work examined individual protein systems through molecular dynamics and residue-network analysis. During my Ph.D., I developed ENACT and ENACTdb to classify exon variation and its protein-coding consequences across transcripts. I later contributed to PEXMap, which assigns MS<sup class="abbreviation-reference"><a href="#abbr-ms" aria-label="MS: mass spectrometry">*</a></sup> peptides to exons and splice junctions. At Plaksha, I study population-stratified BRCA1/2 variation and contribute to ALS<sup class="abbreviation-reference"><a href="#abbr-als" aria-label="ALS: amyotrophic lateral sclerosis">*</a></sup> transcriptomic analyses using explainable ML.</p><div class="link-row"><a href="research.html">Research background →</a><a href="cv.html#projects">Projects →</a></div></section>
+   <section id="enact" class="home-section"><div class="section-heading"><h2>ENACT and ENACTdb</h2></div><p>I developed ENACT to classify exon variation across all protein-coding transcripts of a gene. It distinguishes changes in exon inclusion, splice sites and translation—including dual exons that contribute to CDS<sup class="abbreviation-reference"><a href="#abbr-cds" aria-label="CDS: coding sequence">*</a></sup> in one transcript and UTR<sup class="abbreviation-reference"><a href="#abbr-utr" aria-label="UTR: untranslated region">*</a></sup> in another. ENACTdb adds protein domains, predicted SS<sup class="abbreviation-reference"><a href="#abbr-ss" aria-label="SS: secondary structure">*</a></sup> and IDRs<sup class="abbreviation-reference"><a href="#abbr-idr" aria-label="IDR: intrinsically disordered region">*</a></sup> across five species.</p><figure class="research-visual exon-visual wnk4-visual" data-visual="enact" data-step="0">
+ <div class="visual-toolbar"><div class="visual-steps" aria-label="Explore the WNK4 example"><button type="button" data-visual-step="0" aria-pressed="true">RNA</button><button type="button" data-visual-step="1" aria-pressed="false">Dual exons</button><button type="button" data-visual-step="2" aria-pressed="false">Protein</button></div><button type="button" class="motion-control" data-motion aria-pressed="false">Pause</button></div>
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 324" role="img" aria-label="WNK4 example from ENACT Figure 5B. The first two exons occur in both isoforms but are coding in isoform 1 and untranslated in isoform 2. Alternative initiation and exon 5 skipping accompany disruption of the kinase domain; OSR1_C is retained. Schematic, not to scale.">
+  <g class="wnk4-labels"><text x="12" y="29">WNK4</text><text x="12" y="89">RNA · ISF-1</text><text x="12" y="143">RNA · ISF-2</text></g>
+  <g class="wnk4-exon-numbers"><text x="167" y="30">1</text><text x="232" y="30">2</text><text x="297" y="30">3</text><text x="362" y="30">4</text><text x="427" y="30">5</text><text x="536" y="30">Downstream</text></g>
+  <g class="wnk4-guides"><path d="M167 38V162M232 38V162M297 38V162M362 38V162M427 38V162"/></g>
+  <g class="wnk4-lines"><path d="M142 84H620M142 138H620"/></g>
+  <g class="wnk4-coding"><rect class="dual-cds" x="145" y="74" width="44" height="20" rx="2"/><rect class="dual-cds" x="210" y="74" width="44" height="20" rx="2"/><rect x="275" y="74" width="44" height="20" rx="2"/><rect x="340" y="74" width="44" height="20" rx="2"/><rect x="405" y="74" width="44" height="20" rx="2"/><rect x="485" y="74" width="130" height="20" rx="2"/><rect x="485" y="128" width="130" height="20" rx="2"/></g>
+  <g class="wnk4-utr"><rect x="145" y="128" width="44" height="20" rx="2"/><rect x="210" y="128" width="44" height="20" rx="2"/></g>
+  <g class="wnk4-shift"><rect x="275" y="128" width="44" height="20" rx="2"/><rect x="340" y="128" width="44" height="20" rx="2"/></g>
+  <g class="wnk4-skipped"><rect x="405" y="128" width="44" height="20" rx="2"/><path d="M409 131l36 14m0-14l-36 14"/></g>
+  <g class="wnk4-dual-highlight"><rect x="140" y="63" width="119" height="96" rx="5"/><text x="200" y="57">Dual · D</text></g>
+  <path class="wnk4-initiation" d="M279 114v8m-4-5l4 5 4-5"/>
+  <g class="wnk4-legend"><rect x="145" y="178" width="9" height="9"/><text x="160" y="186">CDS</text><rect class="utr-key" x="215" y="178" width="9" height="9"/><text x="230" y="186">UTR</text><rect class="shift-key" x="286" y="178" width="9" height="9"/><text x="301" y="186">Altered frame</text><path class="skip-key" d="M418 178l9 9m0-9l-9 9"/><text x="434" y="186">Skipped</text></g>
+  <path class="wnk4-divider" d="M12 205H648"/>
+  <g class="wnk4-proteins"><g class="wnk4-labels"><text x="12" y="244">Protein · ISF-1</text><text x="12" y="295">Protein · ISF-2</text></g>
+   <path class="protein-backbone" d="M145 240H615M145 291H615"/>
+   <rect class="kinase-domain" x="145" y="228" width="192" height="23" rx="3"/><text class="domain-label" x="241" y="244">Kinase</text>
+   <g class="retained-domain"><rect x="493" y="228" width="122" height="23" rx="3"/><rect x="493" y="279" width="122" height="23" rx="3"/><text x="554" y="244">OSR1_C<a href="#abbr-osr1-c" aria-label="OSR1_C: oxidative-stress-responsive kinase 1 C-terminal domain"><tspan class="abbreviation-marker" baseline-shift="super" font-size="75%">*</tspan></a></text><text x="554" y="295">OSR1_C</text></g>
+   <path class="lost-domain" d="M145 280H337V302H145Z"/><text class="lost-domain-label" x="241" y="295">No intact kinase</text>
+  </g>
+  <path class="wnk4-flow" d="M110 160V216"/>
+ </svg>
+ <figcaption><span data-state-text>Exons 1 and 2 occur in both transcripts.</span> <a href="https://genome.cshlp.org/content/35/6/1440/F5">WNK4 · Fig. 5B, Genome Research</a>. <span class="schematic-label">Simplified annotation, not to scale. Functional consequences remain hypotheses.</span></figcaption>
+ <p class="figure-footnote">“Dual” denotes coding in one transcript and noncoding in another. OSR1_C is the retained C-terminal domain.</p>
+</figure>
+<figure class="research-visual af-outlook-visual" data-visual="af">
+ <div class="visual-toolbar"><span class="visual-label">ENACT · structural outlook</span><button type="button" class="motion-control" data-motion aria-pressed="false">Play</button></div>
+ <div class="af-outlook-grid"><div><h3>From coding change to structural consequence</h3><p>Which isoform changes preserve a stable fold or alter partner recognition?</p><p class="model-reference">Canonical WNK4 kinase domain · residues 174–432<br>AlphaFold DB Q96J92 · model v6<br>Mean pLDDT<sup class="abbreviation-reference"><a href="#abbr-plddt" aria-label="pLDDT: predicted local distance difference test (local structure-prediction confidence)">*</a></sup> 87.7; local confidence varies.</p><div class="confidence-key"><span class="confidence-high">≥90</span><span class="confidence-good">70–90</span><span class="confidence-low">50–70</span><span class="confidence-very-low">&lt;50</span><small>pLDDT</small></div><a class="model-source" href="https://alphafold.ebi.ac.uk/entry/Q96J92">Model and confidence data ↗</a></div><div><video muted loop playsinline preload="none" width="960" height="720" poster="asset/molecular/wnk4-kinase.png?v=20261106e" aria-label="Confidence-coloured AlphaFold prediction of the canonical WNK4 kinase domain, residues 174 to 432. Reference model for a future isoform comparison."><source src="asset/molecular/wnk4-kinase.mp4?v=20261106e" type="video/mp4"><source src="asset/molecular/wnk4-kinase.webm?v=20261106e" type="video/webm">Predicted domain: <a href="asset/molecular/wnk4-kinase.mp4?v=20261106e">open video</a>.</video></div></div>
+ <figcaption>A predicted canonical reference for the proposed structural comparison. The alternative isoform is not modelled here. pLDDT denotes local prediction confidence.</figcaption>
+</figure>
 
-  <main id="main">
-    <section class="profile-hero" id="profile">
-      <div class="container profile-card" aria-label="Professional profile">
-        <figure class="profile-photo">
-          <img src="asset/paras.png" alt="Portrait of Paras Verma">
-        </figure>
-        <div class="profile-content">
-          <div class="profile-heading">
-            <p class="eyebrow">Research profile</p>
-            <h1>Paras Verma, Ph.D.</h1>
-            <p class="profile-title">Protein diversification across molecular and cellular states</p>
-          </div>
-
-          <div class="profile-body">
-            <div class="profile-main">
-              <p class="profile-brief">I study how genetic variation and RNA processing shape protein diversity, and how these changes are reflected in protein structure, function, and cellular state. My work combines sequence analysis, structural modelling, and biological data to connect variation across transcriptomic, proteomic, and cellular levels.</p>
-              <div class="profile-links" aria-label="Profile links">
-                <a href="mailto:parasvcb@gmail.com">parasvcb@gmail.com</a>
-                <a href="https://orcid.org/0000-0002-1649-4733" target="_blank" rel="noopener noreferrer">ORCID</a>
-                <a href="https://github.com/parasvcb" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="https://in.linkedin.com/in/paras-verma-ph-d-b563052a5" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              </div>
-            </div>
-
-            <div class="profile-details">
-              <p>Ph.D., IISER Mohali, <a href="https://web.iisermohali.ac.in:8080/faculty/shashi-b-pandit" target="_blank" rel="noopener noreferrer">Shashi B. Pandit group</a></p>
-              <p class="profile-role">Current: Research Associate (Postdoc), Plaksha University</p>
-              <p>Department of Biological Systems (BioSystems) Engineering</p>
-              <p><a href="https://plaksha.edu.in/faculty-details/dr-monika-sharma" target="_blank" rel="noopener noreferrer">Monika Sharma group</a></p>
-              <p class="profile-address">Plaksha University, Alpha, Sector 101, IT City Rd, Sahibzada Ajit Singh Nagar, Punjab 140306</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <aside class="container contact-invitation" aria-label="Invitation to connect">
-      <p>I believe diverse perspectives make science stronger. If my research aligns with your interests, I’d be happy to connect.</p>
-      <a href="mailto:parasvcb@gmail.com">Get in touch</a>
-    </aside>
-
-    <section class="tabs-section" aria-label="Profile sections">
-      <div class="container profile-tabs" role="tablist" aria-label="Profile content tabs">
-        <a class="tab-link active" id="tab-program" href="#program" role="tab" aria-selected="true" aria-controls="program">Research focus</a>
-        <a class="tab-link" id="tab-projects" href="#projects" role="tab" aria-selected="false" aria-controls="projects">Projects</a>
-        <a class="tab-link" id="tab-publications" href="#publications" role="tab" aria-selected="false" aria-controls="publications">Publications</a>
-        <a class="tab-link" id="tab-methods" href="#methods" role="tab" aria-selected="false" aria-controls="methods">Methods</a>
-        <a class="tab-link" id="tab-training" href="#training" role="tab" aria-selected="false" aria-controls="training">Training</a>
-        <a class="tab-link" id="tab-life" href="#life" role="tab" aria-selected="false" aria-controls="life">Outside research</a>
-      </div>
-
-    <section class="section tab-panel is-active" id="program" data-tab-panel role="tabpanel" aria-labelledby="tab-program">
-      <div class="container reader-panel research-focus">
-        <h2 class="visually-hidden">Research focus</h2>
-        <p class="standfirst">Research focus</p>
-        <p>Omics measurements of different molecular layers inform the state of a cell or tissue, whether measured in bulk or at single-cell resolution. Each readout is informative within its intended scope, but its interpretation remains tied to procedure and, importantly, context. Even at their best technical capacity, individual omics describe specific attributes of cell state rather than cell in its entirety. This becomes evident when one molecular layer is used to infer another, where regulatory processes and temporal separation can weaken correspondence independently of technical variation; see for instance, transcriptional and proteomic states (Furtwängler et al., 2025; PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/40839704/" target="_blank" rel="noopener noreferrer">40839704</a>; Barry et al., 2026; PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41317903/" target="_blank" rel="noopener noreferrer">41317903</a>).</p>
-        <p>In this respect, I am developing interpretive frameworks with aim to better characterize correspondence across omics layers. I began at the protein level, using computational structural biology and MD simulations to study protein structure, dynamics, and function. The central framework I developed now provides a route to ask how regulatory processes modulate RNA and protein diversity within cells to establish identity and shape adaptation to stimuli. It examines how transcript diversity arising from transcriptional and post transcriptional processes, including alternative transcription and splicing may propagate to - or become uncoupled at proteomic level. At present, it characterizes this diversity; its next extension will determine which transcript-level events are realized as protein isoforms or functional variation. I view this as the first module in a broader chain connecting transcript variation to protein state and, ultimately, cellular behavior.</p>
-        <p>In parallel, I am extending this work toward systems-level cellular processes, presently using cancer and autoimmunity as systems where altered regulatory and protein states have phenotypic consequences. This gives me two complementary directions: to understand disease-relevant constraints on state transitions and studying whether protein conformational distributions help explain cellular heterogeneity. Broadly, I aim to use these insights to improve multiscale representations of biological state, including how such states vary between individuals, respond to perturbation, and change over time.</p>
-        <nav class="research-reading" aria-label="Further reading">
-          <a href="research.html"><strong>Research approach and background</strong><span>How molecular changes shape protein and cellular function</span></a>
-          <a href="views.html"><strong>Cancer and agentic AI</strong><span>Cancer as a multiscale biological system; Agentic AI and biological representation</span></a>
-        </nav>
-      </div>
-    </section>
-
-    <section class="section section-muted tab-panel" id="projects" data-tab-panel role="tabpanel" aria-labelledby="tab-projects" hidden>
-      <div class="container tab-intro">
-        <h2 class="visually-hidden">Projects</h2>
-        <p>Selected Ph.D. projects in transcript and protein analysis, molecular dynamics and genome annotation. Please contact me about ongoing work.</p>
-      </div>
-
-      <div class="container project-stack">
-        <article class="project-card featured">
-          <div class="project-body">
-            <p class="tagline">ENACT and ENACTdb · 2019–2025</p>
-            <h3>Exon nomenclature and classification of transcripts</h3>
-            <div class="science-notes">
-              <p>ENACT combines exon positions and protein-coding sequences in a gene-wide classification. It records coding status, inclusion across isoforms and splice-site variation, including overlapping changes that are difficult to interpret from exon boundaries alone.</p>
-              <p>I developed the framework to classify exon attributes across transcripts and distinguish changes in coding regions, splice sites and amino-acid sequences. An exon can alternate between coding and noncoding states or contribute different amino-acid sequences in different transcripts; ENACT keeps these cases explicit.</p>
-              <p>ENACTdb displays exon variation alongside coding sequences, protein domains, predicted secondary structure and disordered regions, allowing individual transcript differences to be examined in their protein context.</p>
-            </div>
-            <ul class="compact-list">
-              <li>Annotated protein-coding genes across <i>C. elegans</i>, <i>D. melanogaster</i>, <i>D. rerio</i>, <i>M. musculus</i>, and <i>H. sapiens</i>.</li>
-              <li>Exon classes retain coding status, amino-acid changes and splice-site shifts alongside domains, disordered regions, motifs and other protein annotations.</li>
-              <li>Published the framework in <i>Genome Research</i> and the database in <i>Bioinformatics Advances</i>.</li>
-            </ul>
-            <div class="link-row">
-              <a href="https://www.iscbglab.in/enactdb/" target="_blank" rel="noopener noreferrer">ENACTdb</a>
-              <a href="https://pubmed.ncbi.nlm.nih.gov/40335152/" target="_blank" rel="noopener noreferrer">Framework paper</a>
-              <a href="https://pubmed.ncbi.nlm.nih.gov/39569321/" target="_blank" rel="noopener noreferrer">Database paper</a>
-            </div>
-          </div>
-          <figure class="project-media figure-contain">
-            <img src="asset/text.jpg" alt="Block notation of the ENACT framework model">
-            <figcaption>ENACT notation records exon position, coding status, isoform prevalence, amino-acid sequence changes and splice-site variation.</figcaption>
-          </figure>
-        </article>
-
-        <article class="project-card vcc-card">
-          <div class="project-body">
-            <p class="tagline">Molecular dynamics · 2020</p>
-            <h3>Mutation-linked dynamics in <i>Vibrio cholerae</i> cytolysin</h3>
-            <div class="science-notes">
-              <p>We studied how a hinge-region mutation affects oligomerization and pore formation in this multidomain toxin.</p>
-              <p>Molecular dynamics and structural network analysis compared wild-type VCC with Y321A and tracked mutation-associated changes in residue motions and domain contacts.</p>
-              <p>The analysis suggested how perturbation of a local hydrophobic pocket could alter domain communication required for pore formation.</p>
-            </div>
-            <div class="link-row">
-              <a href="https://pubmed.ncbi.nlm.nih.gov/33089544/" target="_blank" rel="noopener noreferrer">Publication</a>
-            </div>
-          </div>
-          <figure class="project-media figure-contain vcc-figure">
-            <img src="asset/vcc1.jpg" alt="RMSF, principal component, and contact-network analysis for Vibrio cholerae cytolysin">
-            <figcaption>Residue-level fluctuation, principal motion, and network analyses were used to interpret mutation effects.</figcaption>
-          </figure>
-        </article>
-
-        <article class="project-card">
-          <div class="project-body">
-            <p class="tagline">Steered molecular dynamics · 2021</p>
-            <h3>Sequence design and mechanical failure in silk beta-sheet nanocrystals</h3>
-            <div class="science-notes">
-              <p>We examined how sequence and packing influence fracture under force in silk beta-sheet nanocrystals.</p>
-              <p>Natural silk nanocrystals were compared with in silico beta-sheet models inspired by globular proteins, using constant-velocity pulling simulations to follow fracture.</p>
-              <p>The study examined sequence and packing choices relevant to silk-like biomaterials. Stronger side-chain interactions did not necessarily improve backbone hydrogen-bond cooperativity or mechanical strength.</p>
-            </div>
-            <div class="link-row">
-              <a href="https://pubmed.ncbi.nlm.nih.gov/34151552/" target="_blank" rel="noopener noreferrer">Publication</a>
-            </div>
-          </div>
-          <figure class="project-media video-panel">
-            <video controls preload="metadata">
-              <source src="asset/test.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            <figcaption>Steered MD was used to compare strand-pull and fracture behavior across designed nanocrystals.</figcaption>
-          </figure>
-        </article>
-
-        <article class="project-card text-card">
-          <div class="project-body">
-            <p class="tagline">Genome annotation · microbiome · enzyme networks</p>
-            <h3>Additional collaborative analyses</h3>
-            <div class="mini-grid">
-              <div>
-                <h4><i>Nasonia oneida</i> genome assembly and annotation</h4>
-                <p>Contributed transcriptome-guided genome annotation and refinement of gene structures using data from several developmental stages.</p>
-              </div>
-              <div>
-                <h4>Gut symbionts in <i>Coptotermes heimi</i></h4>
-                <p>Analyzed symbiont diversity, predicted functional potential and transmission across life stages in termite gut communities.</p>
-              </div>
-              <div>
-                <h4>Enzyme conformational variability</h4>
-                <p>Used conformational correlation networks to compare binding-site organization in promiscuous and specialist enzymes.</p>
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section tab-panel" id="publications" data-tab-panel role="tabpanel" aria-labelledby="tab-publications" hidden>
-      <h2 class="visually-hidden">Publications</h2>
-      <div class="container publication-list">
-        <article class="publication-item preprint">
-          <span class="year">2026</span>
-          <p>Gupta M, Verma P, Sharma M. Multi-omic machine learning overcomes transcriptomic blind spots to rescue therapeutic targets in ALS <a href="https://doi.org/10.21203/rs.3.rs-9305370/v1" target="_blank" rel="noopener noreferrer"><i>ResearchSquare</i>. In review.</a></p>
-        </article>
-        <article class="publication-item preprint">
-          <span class="year">2026</span>
-          <p>Awasthi D, Verma P, Pandit SB. PEXMap: A proteogenomic method for exon and isoform-level mapping of mass-spectrometry-derived peptides. <a href="https://www.biorxiv.org/content/10.64898/2026.04.29.721330v1" target="_blank" rel="noopener noreferrer"><i>bioRxiv</i>. In review.</a></p>
-        </article>
-        <article class="publication-item highlight">
-          <span class="year">2025</span>
-          <p>Verma P, Thakur D, Awasthi D, Pandit SB. Exon nomenclature and classification of transcripts provides a systematic framework to annotate exon attributes. <a href="https://pubmed.ncbi.nlm.nih.gov/40335152/" target="_blank" rel="noopener noreferrer"><i>Genome Research</i>. 35(6):1440–1455.</a></p>
-        </article>
-        <article class="publication-item highlight">
-          <span class="year">2024</span>
-          <p>Verma P, Thakur D, Pandit SB. Exon nomenclature and classification of transcripts database (ENACTdb): a resource for analyzing alternative-splicing-mediated proteome diversity. <a href="https://pubmed.ncbi.nlm.nih.gov/39569321/" target="_blank" rel="noopener noreferrer"><i>Bioinformatics Advances</i>. 4(1).</a></p>
-        </article>
-        <article class="publication-item highlight">
-          <span class="year">2021</span>
-          <p>Verma P, Panda B, Singh KP, Pandit SB. Optimal protein sequence design mitigates mechanical failure in silk beta-sheet nanocrystals. <a href="https://pubmed.ncbi.nlm.nih.gov/34151552/" target="_blank" rel="noopener noreferrer"><i>ACS Biomaterials Science and Engineering</i>. 7(7).</a></p>
-        </article>
-        <article class="publication-item">
-          <span class="year">2025</span>
-          <p>Thakur D, Verma P, Pandit SB. Deciphering binding site conformational variability of substrate promiscuous and specialist enzymes. <a href="https://pubmed.ncbi.nlm.nih.gov/40810731/" target="_blank" rel="noopener noreferrer"><i>Journal of Chemical Information and Modeling</i>. 65(16):8740–8753.</a></p>
-        </article>
-        <article class="publication-item">
-          <span class="year">2025</span>
-          <p>Rana A, Verma P, Pandit SB, Werren J, Wang X, Raychoudhury R. Genome assembly and annotation of the parasitoid jewel wasp <i>Nasonia oneida</i>. <a href="https://www.nature.com/articles/s41597-025-05375-0" target="_blank" rel="noopener noreferrer"><i>Scientific Data</i>. 12:1096.</a></p>
-        </article>
-        <article class="publication-item">
-          <span class="year">2021</span>
-          <p>Mondal AK, Verma P, Sengupta N, Dutta S, Pandit SB, Chattopadhyay K. Tyrosine in the hinge region of the pore-forming motif regulates oligomeric beta-barrel pore formation by <i>Vibrio cholerae</i> cytolysin. <a href="https://pubmed.ncbi.nlm.nih.gov/33089544/" target="_blank" rel="noopener noreferrer"><i>Molecular Microbiology</i>. 115(4).</a></p>
-        </article>
-
-
-
-
-
-
-
-      </div>
-    </section>
-
-    <section class="section section-muted tab-panel" id="methods" data-tab-panel role="tabpanel" aria-labelledby="tab-methods" hidden>
-      <h2 class="visually-hidden">Methods</h2>
-      <div class="container methods-grid">
-        <article class="method-card">
-          <h3>Transcriptomics and annotation</h3>
-          <p>Build and compare transcript models from GTF/GFF, RefSeq and Ensembl annotations; identify open reading frames and coding regions; classify exon variation.</p>
-        </article>
-        <article class="method-card">
-          <h3>Proteoform interpretation</h3>
-          <p>Compare transcript-derived amino-acid sequences for changes in domains, intrinsically disordered regions, motifs and localization-relevant segments, including changes associated with altered splice sites.</p>
-        </article>
-        <article class="method-card">
-          <h3>Structural biology and MD</h3>
-          <p>Molecular dynamics and steered MD, residue contact analysis, PCA, centrality and community analysis for protein motions, domain interactions and mutation-associated structural changes.</p>
-        </article>
-        <article class="method-card">
-          <h3>Programming and web resources</h3>
-          <p>I build analysis scripts and web resources for biological data. My tools include Python and R for analysis, and JavaScript, React, Django and MySQL for web development.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section tab-panel" id="training" data-tab-panel role="tabpanel" aria-labelledby="tab-training" hidden>
-      <div class="container timeline-layout">
-        <h2 class="visually-hidden">Training</h2>
-        <div class="timeline">
-          <article>
-            <span>2025–current</span>
-            <h3>Postdoctoral research</h3>
-            <p>Research Associate at Plaksha University, Mohali, India. Current work includes population-aware variant interpretation, proteoform effects on cell-surface proteins and collaborative analysis of public ALS datasets.</p>
-          </article>
-          <article>
-            <span>2017–2024</span>
-            <h3>Ph.D. in Computational Biology</h3>
-            <p>Department of Biological Sciences, IISER Mohali. Dissertation research on alternative splicing and proteome diversification, with projects in molecular dynamics, protein structural networks, genome assembly and annotation.</p>
-          </article>
-          <article>
-            <span>2012–2016</span>
-            <h3>B.Tech in Biotechnology</h3>
-            <p>Lovely Professional University, India. Training across biotechnology, engineering, and computer science.</p>
-          </article>
-          <article>
-            <span>Awards</span>
-            <h3>Selected honors</h3>
-            <p>Best Poster Award, Theoretical Chemistry and Biology Meeting, 2022; Best Poster Award, Indian Biophysical Society Meeting, 2018; DBT-BINC Certification, All India rank 27.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-muted tab-panel" id="life" data-tab-panel role="tabpanel" aria-labelledby="tab-life" hidden>
-      <div class="container life-panel">
-        <h2 class="visually-hidden">Outside research</h2>
-        <p class="standfirst">Outside academia, I enjoy strength training, running, and finding recipes and routines that fit everyday life.</p>
-        <div class="life-grid">
-          <article>
-            <h3>Resistance training</h3>
-            <p>Regular strength training, with attention to progression and movement quality.</p>
-          </article>
-          <article>
-            <h3>Endurance</h3>
-            <p>Completed a solo 22 km jog.</p>
-          </article>
-          <article>
-            <h3>Nutrition and exercise</h3>
-            <p>I enjoy developing healthy recipes and practical workout ideas for daily life.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <p>&copy; 2026 Paras Verma, Ph.D.</p>
-      <p>Digital research profile.</p>
-    </div>
-  </footer>
-
-  <button class="back-to-top" type="button" aria-label="Back to top">Top</button>
-  <script src="app.js?v=20260623-tabs"></script>
-</body>
-</html>
+    <div class="link-row"><a href="https://www.iscbglab.in/enactdb/">Explore ENACTdb</a><a href="https://pubmed.ncbi.nlm.nih.gov/40335152/">Genome Research · 2025</a><a href="https://pubmed.ncbi.nlm.nih.gov/39569321/">Bioinformatics Advances · 2024</a></div>
+   </section>
+   <section id="current-work" class="home-section"><h2>Current work</h2><p class="accepted-line"><span class="status-dot" aria-hidden="true"></span>Our ALS study is accepted in npj Systems Biology and Applications.</p><div class="link-row"><a href="https://doi.org/10.21203/rs.3.rs-9305370/v1">ALS preprint</a><a href="https://github.com/msplaksha/meta-transcriptomics">Analysis code</a></div><p>Ongoing BRCA1/2 work considers population background, splicing context, domains and functional motifs.</p></section>
+   <section id="interests" class="home-section"><h2>Research interests</h2><p>My current interests concern DNA-damage-repair proteins and receptor–ligand interactions: whether variants and RNA processing alter conformational distributions, partner selection and cellular responses.</p><figure class="research-visual repair-visual" data-visual="repair" data-step="0">
+ <div class="visual-toolbar"><div class="visual-steps" aria-label="Explore representative repair states"><button type="button" data-visual-step="0" data-caption="DNA recognition couples protein conformation to the local DNA geometry." aria-pressed="true">Recognition</button><button type="button" data-visual-step="1" data-caption="Nucleotide exchange can favour a different DNA-bound conformation." aria-pressed="false">ATP-bound</button><button type="button" data-visual-step="2" data-caption="A signalling-competent state recruits downstream repair partners." aria-pressed="false">Partner assembly</button><button type="button" data-visual-step="3" data-caption="Hydrolysis and conformational changes can permit rebinding or release; the branches depend on the system." aria-pressed="false">Recycling</button></div><button type="button" class="motion-control" data-motion aria-pressed="false">Play</button></div>
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 240" role="img" aria-label="Unnamed representative mismatch-repair ATPase cycle: DNA recognition, ATP-coupled change, downstream partner assembly, and recycling with possible DNA rebinding or release. Conceptual states, not atomic structures.">
+  <path class="repair-cycle" d="M130 111H193M293 111H356M456 111H519M600 168Q600 213 352 213Q94 213 94 168"/>
+  <g class="repair-state repair-state-0"><path class="repair-dna" d="M29 137Q63 137 78 119Q94 104 109 125Q124 137 154 137M29 145Q63 145 78 127Q94 112 109 133Q124 145 154 145"/><path class="repair-lobe" d="M72 124C38 120 39 62 77 65L85 88Q62 87 72 111Z"/><path class="repair-lobe" d="M111 124C146 120 145 62 108 65L100 88Q123 87 111 111Z"/><circle class="repair-lesion" cx="93" cy="120" r="4"/><text class="repair-state-label" x="93" y="188">Recognition</text><text class="repair-nucleotide" x="93" y="51">ADP / ATP</text></g>
+  <g class="repair-state repair-state-1"><path class="repair-dna" d="M192 136H317M192 144H317"/><path class="repair-lobe" d="M255 70C207 70 211 145 255 145L255 122C235 120 235 95 255 94Z"/><path class="repair-lobe" d="M255 70C303 70 299 145 255 145L255 122C275 120 275 95 255 94Z"/><text class="repair-state-label" x="255" y="188">ATP-coupled change</text><text class="repair-nucleotide" x="255" y="51">ATP</text></g>
+  <g class="repair-state repair-state-2"><path class="repair-dna" d="M355 136H480M355 144H480"/><path class="repair-lobe" d="M418 70C370 70 374 145 418 145L418 122C398 120 398 95 418 94Z"/><path class="repair-lobe" d="M418 70C466 70 462 145 418 145L418 122C438 120 438 95 418 94Z"/><circle class="repair-partner" cx="457" cy="76" r="17"/><text class="repair-state-label" x="418" y="188">Partner assembly</text><text class="repair-nucleotide" x="418" y="51">ATP</text></g>
+  <g class="repair-state repair-state-3"><path class="repair-dna" d="M518 136H671M518 144H671"/><path class="repair-lobe" d="M563 112C528 104 534 52 570 59L575 81Q551 80 565 100Z"/><path class="repair-lobe" d="M618 112C653 104 647 52 611 59L606 81Q630 80 616 100Z"/><path class="repair-rebinding" d="M564 115q28 27 56 0"/><text class="repair-state-label" x="593" y="188">Rebind / release</text><text class="repair-nucleotide" x="593" y="44">ADP + Pi</text></g>
+ </svg><figcaption><span data-state-text>DNA recognition couples protein conformation to the local DNA geometry.</span> Representative mismatch-repair ATPase cycle. Research outlook: how variants shift state occupancy or partner choice. <a href="https://pubmed.ncbi.nlm.nih.gov/39260099/">Structural and single-molecule context ↗</a></figcaption>
+</figure>
+</section>
+  </div>
+ </div>
+</main><footer class="site-footer">
+ <div class="footer-abbreviations" aria-label="Abbreviations"><p><strong>* Abbreviations</strong> <span class="abbreviation-definition" id="abbr-ms"><b>MS</b>, mass spectrometry</span>; <span class="abbreviation-definition" id="abbr-als"><b>ALS</b>, amyotrophic lateral sclerosis</span>; <span class="abbreviation-definition" id="abbr-cds"><b>CDS</b>, coding sequence</span>; <span class="abbreviation-definition" id="abbr-utr"><b>UTR</b>, untranslated region</span>; <span class="abbreviation-definition" id="abbr-ss"><b>SS</b>, secondary structure</span>; <span class="abbreviation-definition" id="abbr-idr"><b>IDR</b>, intrinsically disordered region</span>; <span class="abbreviation-definition" id="abbr-osr1-c"><b>OSR1_C</b>, oxidative-stress-responsive kinase 1 C-terminal domain</span>; <span class="abbreviation-definition" id="abbr-plddt"><b>pLDDT</b>, predicted local distance difference test (local structure-prediction confidence)</span>.</p></div>
+ <div><a href="mailto:parasvcb@gmail.com" data-contact="footer">parasvcb@gmail.com</a><button class="text-button" type="button" data-copy-email="parasvcb@gmail.com">Copy</button><span class="copy-status" aria-live="polite"></span></div>
+ <div class="footer-links"><a href="views.html">Perspectives</a><a href="archive/2026-11-06/index.html">Previous version</a><a href="#top">Top ↑</a></div>
+</footer>
+</body></html>
